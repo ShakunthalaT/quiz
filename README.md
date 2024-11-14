@@ -1,70 +1,63 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
 In the project directory, you can run:
 
-### `npm start`
+ cd quizapp 
+ start with npm start
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Title
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   Frond-End Assignment
 
-### `npm test`
+## Objective
+   Create a "Quiz Application" where users can take a short quiz, view their results, and see how they
+   performed.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Tech Stack
 
-### `npm run build`
+    primary technologie React.js
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Completion Instructions
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Functionality
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Must Have
 
-### `npm run eject`
+    1. Quiz Setup:
+    ○ Create a short quiz with 5 multiple-choice questions.
+    ○ Each question should have a question title and 4 possible answers (only one correct
+    answer).
+    ○ Store the questions and answers in an array or object in your React app.
+    2. Quiz Interface:
+    ○ Display one question at a time with the possible answers shown as clickable options.
+    ○ When the user selects an answer, move to the next question automatically.
+    3. Display Results:
+    ○ After the user completes all 5 questions, show a summary screen that displays:
+    ■ The number of correct answers.
+    ■ Which questions were answered correctly or incorrectly.
+    ○ Provide feedback on how the user performed (e.g., “Well done!” for a high score or “Try
+    again” for a lower score).
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    4. Simple Validation:
+    ○ Ensure the user selects an answer before moving to the next question.
+    5. Styling:
+    ○ Apply simple styles (custom CSS or a framework like Bootstrap or Material UI) to make the
+    quiz clean and easy to navigate.
+    ○ Ensure the app is responsive and user-friendly on both mobile and desktop devices.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Submission Instructions
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### Must Have
 
-## Learn More
+    Please push your code to a GitHub repository and submit the link.
+    Include a README.md file in your repository
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#### Bonus Features 
+    ● Restart Quiz: Allow users to restart the quiz after viewing their results.
+    ● Restart Quiz: Allow users to restart the quiz after viewing their results.
+    ● Question Timer: Add a timer for each question (e.g., 10 seconds per question).
+    ● Shuffle Questions: Randomize the order of questions each time the quiz is taken.
+    ● Score Persistence: Save the user’s high score in local storage, so they can see their best score
+    when they return to the app.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Third-party packages
+    npm install react-router-dom
